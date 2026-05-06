@@ -8,7 +8,7 @@ During the training stage, anterior and posterior whole-body SPECT bone scintigr
 The processed data are fed into the Bone-Segnet network for training. Mini-batch data loading is adopted, and mixed precision training is utilized to improve computational efficiency and reduce GPU memory consumption.
 After training, the model weights are saved for subsequent testing and inference.
 
-Network Inference
+## Network Inference
 python predictnet.py
 
 During the inference stage, the trained model weights are loaded, and the input whole-body SPECT bone scintigraphy images are preprocessed and fed into the network to generate segmentation predictions.
