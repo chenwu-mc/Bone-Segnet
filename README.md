@@ -1,7 +1,7 @@
 # Bone-Segnet
 Bone-Segnet is a network for segmenting hypermetabolic bone lesions in whole-body SPECT. It addresses low contrast, small lesions, and complex distributions, enabling accurate lesion segmentation and subsequent quantitative analysis for objective characterization of lesion patterns.
 
-Network Training
+## Network Training
 python trainnet.py
 
 During the training stage, anterior and posterior whole-body SPECT bone scintigraphy images and their corresponding pixel-level annotation masks are first loaded. The images are then preprocessed, including resizing, intensity normalization, and data augmentation.
